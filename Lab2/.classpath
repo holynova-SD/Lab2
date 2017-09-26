@@ -13,5 +13,12 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/Users/apple/struts/lib/commons-fileupload-1.3.3.jar"/>
+	<classpathentry kind="lib" path="/Users/apple/struts/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/apple/struts/lib/commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="/Users/apple/struts/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/Users/apple/struts/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="/Users/apple/struts/lib/ognl-3.1.15.jar"/>
+	<classpathentry kind="lib" path="/Users/apple/struts/lib/struts2-core-2.5.13.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
