@@ -6,8 +6,31 @@
 <struts>
 	<include file="struts-default.xml"/>
 	<package name="Actions" extends="struts-default">
-		<action name="fuckyou" class="Actions.Book">
-			<result>/test.jsp</result>
+		
+		<action name="Search" class="Actions.search">
+			<result name="success">/show_book.jsp</result>
+			<result name="error">/search_error.jsp</result>
+		</action>
+		<action name="addAuthor" class="Actions.add_author">
+			<result>/</result>
+		</action>
+		<action name="details" class="Actions.details">
+			<result>/show_details.jsp</result>
+		</action>
+		<action name="delete" class="Actions.delete">
+			<result name="success">/</result>
+		</action>
+		<action name="deliver_aid" class="Actions.deliver_aid">
+			<result name="success">/add_book.jsp</result>
+		</action>
+		<action name="addBook" class="Actions.add_book">
+			<result name="success">/</result>
+		</action>
+		<action name="deliver_details" class="Actions.deliver_details">
+			<result name="success">/update.jsp</result>
+		</action>
+		<action name="updateBook" class="Actions.update">
+			<result name="success">/</result>
 		</action>
 	</package>
 </struts>

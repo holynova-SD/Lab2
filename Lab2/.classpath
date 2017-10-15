@@ -19,5 +19,6 @@
 	<classpathentry kind="lib" path="/Users/apple/struts-2.5/lib/struts2-core-2.5.13.jar"/>
 	<classpathentry kind="lib" path="/Users/apple/struts-2.5/lib/log4j-api-2.8.2.jar"/>
 	<classpathentry kind="lib" path="/Users/apple/struts-2.5/lib/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="/Users/apple/git/Lab2/Lab2/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
